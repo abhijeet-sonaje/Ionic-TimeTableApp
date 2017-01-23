@@ -1,0 +1,14 @@
+Installing Steps : 
+
+	1. Install NodeJs
+	2. Install Git
+	3. Install Cordova and Ionic using command as follow :- 
+		$npm install -g cordova ionic
+
+Running Steps :
+
+	1. Go to the App Folder through cmd or terminal.
+	2. Run the app using command :-
+		$ionic serve
+	3. 
+	

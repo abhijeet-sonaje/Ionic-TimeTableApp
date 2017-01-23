@@ -1,0 +1,11 @@
+<ion-view view-title="Time Table">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="slot in timetable" type="item-text-wrap">
+        <img ng-src="app/timetable/images/subject.png">
+        <h2>{{slot.subject}}</h2>
+        <p>{{slot.time}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
